@@ -1,5 +1,5 @@
 def roll_call_dwarves(name)
-array.each_with_index { |name, index|
+dwarves.each_with_index { |name, index|
   array[name] = index
 }
 end
